@@ -383,3 +383,9 @@ Run coding agents in an isolated environment with narrowly scoped repository per
 Evaluate expression classes on diverse lighting, poses, and demographics without assuming model outputs reveal a person's true emotional state.
 
 For reproducibility, record source versions, environment and dependency versions, configuration, and actual test outputs. Clearly label sample data and illustrative results; never commit secrets or private data.
+
+### Technical Deep Dive
+
+This repository includes upstream SWE-agent material. Preserve the upstream project documentation, configuration formats, license, and attribution; treat local notes as fork-specific guidance rather than claiming they describe a separate implementation. The agent workflow typically combines task context, repository inspection, model-generated tool actions, execution feedback, and a final patch or report.
+
+Suggested engineering checks: run tasks in disposable workspaces with least-privilege access, cap tool calls and execution time, capture reproducible logs, review diffs and run tests before accepting patches, and never expose credentials to untrusted repository content.
