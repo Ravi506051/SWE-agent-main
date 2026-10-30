@@ -377,3 +377,9 @@ This repository is a fork/copy of the upstream SWE-agent project. For current us
 ## Safe Experimentation
 
 Run coding agents in an isolated environment with narrowly scoped repository permissions. Review proposed patches before applying them, avoid exposing secrets in prompts or logs, and do not allow untrusted issue text to authorize destructive commands.
+
+## Project Development Notes
+
+Evaluate expression classes on diverse lighting, poses, and demographics without assuming model outputs reveal a person's true emotional state.
+
+For reproducibility, record source versions, environment and dependency versions, configuration, and actual test outputs. Clearly label sample data and illustrative results; never commit secrets or private data.
