@@ -370,3 +370,10 @@ Refer to the repository's existing `LICENSE` file for licensing terms.
   ⭐ If you find this project useful, consider starring the repository!
 </p>
 
+## Fork Maintenance Note
+
+This repository is a fork/copy of the upstream SWE-agent project. For current usage instructions, release status, issue tracking, and development guidance, consult the upstream SWE-agent documentation and repository. Keep local experiments clearly separated from upstream content and preserve the original license and attribution.
+
+## Safe Experimentation
+
+Run coding agents in an isolated environment with narrowly scoped repository permissions. Review proposed patches before applying them, avoid exposing secrets in prompts or logs, and do not allow untrusted issue text to authorize destructive commands.
