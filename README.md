@@ -397,3 +397,11 @@ This repository is an upstream SWE-agent project. This fork is useful for studyi
 For safe experiments, use a disposable test repository or isolated environment, grant only the permissions required for the task, and review every proposed file modification and shell command. Never provide production credentials or unrestricted access to sensitive repositories. Record the issue description, agent configuration, tool trace, test results, and any human corrections so experiments are reproducible.
 
 This supplementary note does not change the upstream project's ownership, documentation, or license.
+
+## Software Engineering Agent Evaluation
+
+- Use isolated workspaces for repository inspection, code modification, and test execution.
+- Limit tool permissions to the files and commands required for the task.
+- Run the project's existing test suite and relevant linters after every code change.
+- Review generated diffs for unintended edits, dependency changes, and secret exposure before accepting them.
+- Track task success, test pass rate, execution time, and human-review findings across benchmark tasks.
