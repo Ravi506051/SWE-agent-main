@@ -389,3 +389,11 @@ For reproducibility, record source versions, environment and dependency versions
 This repository includes upstream SWE-agent material. Preserve the upstream project documentation, configuration formats, license, and attribution; treat local notes as fork-specific guidance rather than claiming they describe a separate implementation. The agent workflow typically combines task context, repository inspection, model-generated tool actions, execution feedback, and a final patch or report.
 
 Suggested engineering checks: run tasks in disposable workspaces with least-privilege access, cap tool calls and execution time, capture reproducible logs, review diffs and run tests before accepting patches, and never expose credentials to untrusted repository content.
+
+## Personal Learning and Safe Experimentation Notes
+
+This repository is an upstream SWE-agent project. This fork is useful for studying how an LLM-driven software engineering agent inspects repositories, chooses tools, edits code, and validates changes.
+
+For safe experiments, use a disposable test repository or isolated environment, grant only the permissions required for the task, and review every proposed file modification and shell command. Never provide production credentials or unrestricted access to sensitive repositories. Record the issue description, agent configuration, tool trace, test results, and any human corrections so experiments are reproducible.
+
+This supplementary note does not change the upstream project's ownership, documentation, or license.
