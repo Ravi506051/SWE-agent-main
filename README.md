@@ -405,3 +405,9 @@ This supplementary note does not change the upstream project's ownership, docume
 - Run the project's existing test suite and relevant linters after every code change.
 - Review generated diffs for unintended edits, dependency changes, and secret exposure before accepting them.
 - Track task success, test pass rate, execution time, and human-review findings across benchmark tasks.
+
+## Local Study and Safety Notes
+
+This repository is maintained by the original SWE-agent authors. Preserve upstream attribution, license terms, and project status notices when experimenting with this copy.
+
+For local experiments, use a disposable repository or isolated workspace, review every proposed patch, and restrict shell and network permissions. Add regression tests for each change and record the base revision so results can be reproduced. Do not run agent-generated commands against production repositories without explicit review.
