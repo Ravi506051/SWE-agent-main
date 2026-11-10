@@ -411,3 +411,12 @@ This supplementary note does not change the upstream project's ownership, docume
 This repository is maintained by the original SWE-agent authors. Preserve upstream attribution, license terms, and project status notices when experimenting with this copy.
 
 For local experiments, use a disposable repository or isolated workspace, review every proposed patch, and restrict shell and network permissions. Add regression tests for each change and record the base revision so results can be reproduced. Do not run agent-generated commands against production repositories without explicit review.
+
+## Repository Use and Attribution Notes
+
+This repository contains the SWE-agent project. These notes describe evaluation and safe experimentation; they do not claim authorship of the upstream system.
+
+- Review the official documentation and license before making or redistributing changes.
+- Evaluate issue-resolution success on a clearly defined benchmark and record the exact configuration.
+- Inspect generated patches and run relevant tests before accepting automated code changes.
+- Use isolated workspaces and least-privilege credentials when experimenting with repository agents.
